@@ -1,13 +1,16 @@
 .sidenav-container {
     height: 100%;
-  }
-  
-  .sidenav {
+}
+
+.sidenav {
     width: 200px;
-  }
-  
-  .mat-toolbar.mat-primary {
+}
+
+.mat-toolbar.mat-primary {
     position: sticky;
     top: 0;
-  }
-  
+}
+
+.header-bar {
+    z-index: 2;
+}
