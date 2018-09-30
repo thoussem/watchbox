@@ -1,0 +1,38 @@
+.movie-card {
+    padding: 0;
+    width: 185px;
+    height: 278px;
+    margin: 5px 5px 10px 5px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.cover,
+.cover-overlay {
+    width: 185px;
+    height: 278px;
+    transition-duration: 0.5s;
+}
+
+.movie-card:hover .cover-overlay {
+    background: rgba(23, 24, 27, 0.6);
+}
+
+.movie-card>.actions:last-child {
+    width: 185px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+.movie-card:hover>.actions:last-child {
+    visibility: visible;
+}
+
+.actions .actions-container {
+    display: flex;
+    justify-content: space-between;
+}
