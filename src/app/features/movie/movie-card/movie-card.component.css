@@ -11,8 +11,29 @@
 .cover,
 .cover-overlay {
     width: 185px;
-    height: 278px;
+    height: 280px;
     transition-duration: 0.5s;
+}
+
+.cover-overlay {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.cover {
+    background-size: 185px 280px;
+}
+
+.title {
+    bottom: 5px;
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.title p {
+    color: white;
+    font-weight: bold;
 }
 
 .movie-card:hover .cover-overlay {

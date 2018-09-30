@@ -1,8 +1,10 @@
 <mat-card class="movie-card">
     <mat-card-content>
-        <div [style.background]="'url(https://image.tmdb.org/t/p/w185_and_h278_bestv2'+movie.poster_path+')'" class="cover">
+        <div [style.background-image]="'url(https://image.tmdb.org/t/p/w500/'+movie.poster_path+')'" class="cover">
             <div class="cover-overlay">
-
+                <div class="title">
+                    <p>{{movie.title}}</p>
+                </div>
             </div>
         </div>
     </mat-card-content>
